@@ -12,6 +12,7 @@ import com.singtel.test.animal.feature.PhoneRing;
 import com.singtel.test.animal.feature.Quack;
 import com.singtel.test.animal.feature.Woof;
 import com.singtel.test.animal.species.Parrot;
+import com.singtel.test.util.Locale;
 
 public class TestParrot {
 
@@ -29,7 +30,7 @@ public class TestParrot {
 	
 	@Test
 	public void testParrotWithRooster() {
-		Parrot parrotWithRooster = new Parrot(new CanFly(), new CanSing(), new CockADoo());
+		Parrot parrotWithRooster = new Parrot(new CanFly(), new CanSing(), new CockADoo(Locale.EN));
 		parrotWithRooster.makeSound();
 	}
 	

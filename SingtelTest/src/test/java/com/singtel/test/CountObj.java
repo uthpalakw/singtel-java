@@ -31,6 +31,7 @@ import com.singtel.test.animal.species.Fish;
 import com.singtel.test.animal.species.Parrot;
 import com.singtel.test.animal.species.Rooster;
 import com.singtel.test.animal.species.Shark;
+import com.singtel.test.util.Locale;
 
 public class CountObj {
 
@@ -41,7 +42,7 @@ public class CountObj {
 										new Dolphine(new CanSwim(), new CanSing()),	
 										new Duck(new CanFly(), new CanSing(), new Quack(), new CanSwim()),
 										new Chicken(new CannotFly(), new CanSing(), new Cluck()),
-										new Rooster(new CannotFly(), new CannotSing(), new CockADoo()),
+										new Rooster(new CannotFly(), new CannotSing(), new CockADoo(Locale.EN)),
 										new Parrot(new CanFly(), new CanSing(), new Woof()),
 										new Shark(new CannotSing(), new CanSwim(), new CannotWalk()),
 										new ClownFish(new CannotSing(), new CanSwim(), new CannotWalk()),
@@ -62,7 +63,7 @@ public class CountObj {
 										new Dolphine(new CanSwim(), new CanSing()),	
 										new Duck(new CanFly(), new CanSing(), new Quack(), new CanSwim()),
 										new Chicken(new CannotFly(), new CanSing(), new Cluck()),
-										new Rooster(new CannotFly(), new CannotSing(), new CockADoo()),
+										new Rooster(new CannotFly(), new CannotSing(), new CockADoo(Locale.EN)),
 										new Parrot(new CanFly(), new CanSing(), new Woof()),
 										new Shark(new CannotSing(), new CanSwim(), new CannotWalk()),
 										new ClownFish(new CannotSing(), new CanSwim(), new CannotWalk()),
@@ -83,7 +84,7 @@ public class CountObj {
 										new Dolphine(new CanSwim(), new CanSing()),	
 										new Duck(new CanFly(), new CanSing(), new Quack(), new CanSwim()),
 										new Chicken(new CannotFly(), new CanSing(), new Cluck()),
-										new Rooster(new CannotFly(), new CannotSing(), new CockADoo()),
+										new Rooster(new CannotFly(), new CannotSing(), new CockADoo(Locale.EN)),
 										new Parrot(new CanFly(), new CanSing(), new Woof()),
 										new Shark(new CannotSing(), new CanSwim(), new CannotWalk()),
 										new ClownFish(new CannotSing(), new CanSwim(), new CannotWalk()),
@@ -105,7 +106,7 @@ public class CountObj {
 										new Dolphine(new CanSwim(), new CanSing()),	
 										new Duck(new CanFly(), new CanSing(), new Quack(), new CanSwim()),
 										new Chicken(new CannotFly(), new CanSing(), new Cluck()),
-										new Rooster(new CannotFly(), new CannotSing(), new CockADoo()),
+										new Rooster(new CannotFly(), new CannotSing(), new CockADoo(Locale.EN)),
 										new Parrot(new CanFly(), new CanSing(), new Woof()),
 										new Shark(new CannotSing(), new CanSwim(), new CannotWalk()),
 										new ClownFish(new CannotSing(), new CanSwim(), new CannotWalk()),
