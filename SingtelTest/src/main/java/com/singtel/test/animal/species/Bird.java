@@ -3,6 +3,8 @@ package com.singtel.test.animal.species;
 import com.singtel.test.animal.Animal;
 import com.singtel.test.animal.feature.Flyable;
 import com.singtel.test.animal.feature.Singable;
+import com.singtel.test.animal.feature.Swimmable;
+import com.singtel.test.animal.feature.Walkable;
 
 public class Bird extends Animal{
 
@@ -20,5 +22,28 @@ public class Bird extends Animal{
 	
 	public void sing() {
 		singable.sing();
+	}
+
+	public Singable getSingable() {
+		return singable;
+	}
+
+	public void setSingable(Singable singable) {
+		this.singable = singable;
+	}
+
+	@Override
+	public Flyable getflFlyable() {
+		return flyable;
+	}
+
+	@Override
+	public Walkable getWalkable() {
+		return null;
+	}
+
+	@Override
+	public Swimmable getSwimmable() {
+		return null;
 	}
 }

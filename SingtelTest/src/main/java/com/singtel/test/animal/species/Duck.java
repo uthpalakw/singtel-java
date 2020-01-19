@@ -28,5 +28,10 @@ public class Duck extends Bird{
 	public void swim() {
 		swimmable.swim();
 	}
+	
+	@Override
+	public Swimmable getSwimmable() {
+		return swimmable;
+	}
 
 }
